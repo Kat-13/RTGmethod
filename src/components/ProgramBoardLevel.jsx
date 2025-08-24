@@ -37,7 +37,7 @@ const ProgramBoardLevel = () => {
   }, []);
 
   const loadData = () => {
-    const loadedDeliverables = ProjectAwareDataStorage.load('functional_deliverables', []);
+    const loadedDeliverables = ProjectAwareDataStorage.load('functional_deliverables', JSON.parse(localStorage.getItem('rtg_ae_functional_deliverables') || '[]'));
     const loadedStreams = ProjectAwareDataStorage.load('streams', getDefaultStreams());
     const loadedNotes = ProjectAwareDataStorage.load('whiteboard_notes', []);
     const loadedUsers = ProjectAwareDataStorage.loadUsers();
