@@ -9,7 +9,7 @@ export const INITIAL_RTG_DATA = {
       "id": "getting_started_guide",
       "title": "RTG System Quick Start Guide",
       "description": "Welcome to your RTG Program Board! This interactive guide will help you get started with the system.",
-      "stream_id": "vohcav",
+      "stream_id": "stream_id",
       "readiness": "ready",
       "alignment": null,
       "target_date": null,
