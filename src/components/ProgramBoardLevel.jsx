@@ -52,11 +52,8 @@ const ProgramBoardLevel = () => {
   };
 
   const getDefaultStreams = () => [
-    { id: 'ohca', name: 'OHCA', color: '#3B82F6', description: 'Office of Health Care Assurance' },
-    { id: 'dmhsas', name: 'DMHSAS', color: '#8B5CF6', description: 'Department of Mental Health & Substance Abuse' },
-    { id: 'security', name: 'Security', color: '#EF4444', description: 'Information security and compliance' },
-    { id: 'infrastructure', name: 'Infrastructure', color: '#10B981', description: 'Technical infrastructure and platforms' }
-  ];
+  { id: 'getting_started_stream', name: 'Getting Started', color: '#3B82F6', description: 'Interactive guide to get started with the system' }
+];
 
   const filteredDeliverables = deliverables.filter(deliverable => {
     const matchesSearch = deliverable.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
