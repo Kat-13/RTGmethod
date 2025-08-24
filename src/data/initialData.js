@@ -3,7 +3,7 @@
 
 export const INITIAL_RTG_DATA = {
   "rtg_ae_whiteboard_notes": "[{\"id\":\"meg4o54fz61uw1w7owo1\",\"title\":\"This is an L0 end to end\",\"description\":\"This is a test\",\"tags\":[],\"stream\":null,\"created_at\":\"2025-08-17T20:17:45.825Z\",\"promoted_to_deliverable_id\":\"meg4ohpd817ekqkyvzav\"}]",
-  "rtg_ae_streams": "[{\"id\":\"vohcav\",\"name\":\"Getting Started\",\"color\":\"#3B82F6\",\"description\":\"\",\"created_at\":\"2025-08-17T20:18:02.785Z\",\"promoted_to_deliverable_id\":\"meg4ohpd817ekqkyvzav\"}]",
+  "rtg_ae_streams": "[{\"id\":\"getting_started_stream\",\"name\":\"Getting Started\",\"color\":\"#3B82F6\",\"description\":\"\",\"created_at\":\"2025-08-17T20:18:02.785Z\",\"promoted_to_deliverable_id\":\"meg4ohpd817ekqkyvzav\"}]",
   "rtg_ae_functional_deliverables": [
     {
       "id": "getting_started_guide",
